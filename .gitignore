@@ -1,0 +1,13 @@
+.idea
+.publish
+.DS_Store
+*.iml
+*.log
+.vscode
+node_modules
+
+src/html/css
+src/html/img
+src/img/sprite
+src/sprite/scss
+dist

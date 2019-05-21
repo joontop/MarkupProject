@@ -1,0 +1,10 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background: #fff;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
