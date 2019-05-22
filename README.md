@@ -1,4 +1,4 @@
-# CLAYON
+# MARKUP PROJECT
 
 Clayon Mark-up project
 
