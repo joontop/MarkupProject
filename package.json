@@ -18,17 +18,12 @@
     "gulp": "^4.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-connect": "^5.7.0",
-    "gulp-gm": "0.0.9",
-    "gulp-html-beautify": "^1.0.1",
     "gulp-if": "^2.0.2",
     "gulp-imagemin": "^5.0.3",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-spritesmash": "^1.1.1",
-    "gulp.spritesmith": "^6.9.0",
-    "image-size": "^0.7.4",
-    "prettier": "^1.17.1",
-    "through2": "^3.0.1",
-    "vinyl-buffer": "^1.0.1"
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp.spritesmith": "^6.11.0",
+    "prettier": "^1.18.2"
   }
 }

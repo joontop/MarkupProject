@@ -1,0 +1,37 @@
+@import '../sprite/scss/sprite_svg.scss';
+
+$spacing: 10; // gulpfile.js 의 spacing 과 동일해야 합니다.
+
+@mixin svg {
+  $sprite: map-get($icons, sprite);
+  background-image: url(map-get($sprite, svgPath));
+}
+
+@mixin svg-icon($sprite) {
+  $sp: map-get($icons, $sprite);
+
+  width: map-get($sp, width);
+  height: map-get($sp, height);
+  background-position: map-get($sp, backgroundX) - $spacing map-get($sp, backgroundY) - $spacing;
+}
+
+.sps {
+  @include svg;
+  background-repeat: no-repeat;
+}
+
+.sps_btn-navi-back-b {
+  @include svg-icon('btn-navi-back-b');
+}
+
+.sps_btn-navi-cancel-b {
+  @include svg-icon('btn-navi-cancel-b');
+}
+
+.sps_btn-navi-setting-b {
+  @include svg-icon('btn-navi-setting-b');
+}
+
+.sps_guide_page_repeat {
+  @include svg-icon('guide_page_repeat');
+}
