@@ -14,3 +14,16 @@ $icons: (
       ),
   {{/ shapes}}
 );
+
+.sps{
+  width: {{spriteWidth}}px;
+  height: {{spriteHeight}}px;
+  background-image:url('../img/sprite/sprite_svg.svg');
+}
+{{#shapes}}
+.sps_{{base}} {
+  width: {{width.inner}}px;
+  height: {{height.inner}}px;
+  background-position: calc({{position.absolute.x}}px - 10px) calc({{position.absolute.y}}px - 10px);
+}
+{{/ shapes}}
